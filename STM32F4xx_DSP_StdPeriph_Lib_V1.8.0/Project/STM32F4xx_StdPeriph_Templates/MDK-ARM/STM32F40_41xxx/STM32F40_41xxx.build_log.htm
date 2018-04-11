@@ -1,0 +1,229 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: John Hongtao Zhang, UCSD, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  E:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+E:\UCSD_MicroMouse_2016-2017\Triton MicroMouse 2016-2017\STM32F4xx_DSP_StdPeriph_Lib_V1.8.0\Project\STM32F4xx_StdPeriph_Templates\MDK-ARM\Project.uvprojx
+Project File Date:  10/18/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM32F40_41xxx'
+compiling system_stm32f4xx.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../system_stm32f4xx.c: 1 warning, 0 errors
+compiling stm32f4xx_it.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../stm32f4xx_it.c: 1 warning, 0 errors
+compiling main.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../main.c(426): warning:  #111-D: statement is unreachable
+  		halt();
+../main.c(2540): warning:  #174-D: expression has no effect
+        theMaze[i][j].visited;
+../main.c(2951): warning:  #177-D: variable "currentCenter"  was declared but never referenced
+    int currentCenter = 0;
+../main.c: 4 warnings, 0 errors
+compiling stm32f4xx_dma2d.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c: 1 warning, 0 errors
+compiling stm32f4xx_flash.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c: 1 warning, 0 errors
+compiling stm32f4xx_pwr.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c: 1 warning, 0 errors
+compiling stm32f4xx_fmpi2c.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c: 1 warning, 0 errors
+compiling stm32f4xx_wwdg.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c: 1 warning, 0 errors
+compiling stm32f4xx_hash.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c: 1 warning, 0 errors
+compiling stm32f4xx_spi.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c: 1 warning, 0 errors
+compiling stm32f4xx_ltdc.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c: 1 warning, 0 errors
+compiling stm32f4xx_dfsdm.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c: 1 warning, 0 errors
+compiling stm32f4xx_dbgmcu.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c: 1 warning, 0 errors
+compiling stm32f4xx_sdio.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c: 1 warning, 0 errors
+compiling stm32f4xx_iwdg.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c: 1 warning, 0 errors
+compiling stm32f4xx_cryp.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c: 1 warning, 0 errors
+compiling stm32f4xx_tim.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c: 1 warning, 0 errors
+compiling stm32f4xx_cryp_tdes.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c: 1 warning, 0 errors
+compiling stm32f4xx_rtc.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c: 1 warning, 0 errors
+compiling stm32f4xx_cryp_aes.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c: 1 warning, 0 errors
+compiling stm32f4xx_adc.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c: 1 warning, 0 errors
+compiling stm32f4xx_cryp_des.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c: 1 warning, 0 errors
+compiling stm32f4xx_i2c.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c: 1 warning, 0 errors
+compiling stm32f4xx_spdifrx.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c: 1 warning, 0 errors
+compiling stm32f4xx_sai.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c: 1 warning, 0 errors
+compiling stm32f4xx_usart.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c: 1 warning, 0 errors
+compiling stm32f4xx_rng.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c: 1 warning, 0 errors
+compiling misc.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/misc.c: 1 warning, 0 errors
+compiling stm32f4xx_crc.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c: 1 warning, 0 errors
+compiling stm32f4xx_exti.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c: 1 warning, 0 errors
+compiling stm32f4xx_dac.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c: 1 warning, 0 errors
+compiling stm32f4xx_fsmc.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c: 1 warning, 0 errors
+compiling stm32f4xx_lptim.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c: 1 warning, 0 errors
+compiling stm32f4xx_dcmi.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c: 1 warning, 0 errors
+compiling stm32f4xx_can.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c: 1 warning, 0 errors
+compiling stm32f4xx_gpio.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c: 1 warning, 0 errors
+compiling stm32f4xx_hash_md5.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c: 1 warning, 0 errors
+compiling stm32f4xx_rcc.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c: 1 warning, 0 errors
+compiling stm32f4xx_syscfg.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c: 1 warning, 0 errors
+compiling stm32f4xx_dma.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c: 1 warning, 0 errors
+compiling stm32f4xx_hash_sha1.c...
+E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h(77): warning:  #47-D: incompatible redefinition of macro "__FPU_USED" 
+        #define __FPU_USED       1U
+../../../Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c: 1 warning, 0 errors
+assembling startup_stm32f40_41xxx.s...
+linking...
+Program Size: Code=16848 RO-data=548 RW-data=3328 ZI-data=41864  
+"STM32F40_41xxx\STM32F40_41xxx.axf" - 0 Error(s), 44 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.11.0.pack
+                Keil.STM32F4xx_DFP.2.11.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F40_41xxx
+  E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:26
+</pre>
+</body>
+</html>
